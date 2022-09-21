@@ -1,0 +1,32 @@
+[
+  {
+    "id":0,
+    "mot":"ordinateur",
+    "definition":"Machine automatique de traitement de l'information, obéissant à des programmes formés par des suites d'opérations arithmétiques et logiques."
+  },
+  {
+    "id":1,
+    "mot":"souris",
+    "definition":"Une souris est un dispositif de pointage pour ordinateur. Elle est composée d'un petit boîtier fait pour tenir sous la main, sur lequel se trouvent un ou plusieurs boutons, et une molette dans la plupart des cas."
+  },
+  {
+    "id":2,
+    "mot":"clavier",
+    "definition":"Un clavier d’ordinateur est une interface homme-machine munie de touches permettant à l'utilisateur d'entrer dans l'ordinateur une séquence de données, notamment textuelle."
+  },
+  {
+    "id":3,
+    "mot":"écran",
+    "definition":"Un écran d'ordinateur est un périphérique de sortie vidéo d'ordinateur. Il affiche les images générées par la carte graphique de l'ordinateur."
+  },
+  {
+    "id":4,
+    "mot":"imprimante",
+    "definition":"Une imprimante est un engin permettant d'obtenir un document sur papier à partir d'un modèle informatique du document."
+  },
+  {
+    "id":5,
+    "mot":"serveur",
+    "definition":"Un serveur informatique est un dispositif informatique qui offre des services à un ou plusieurs clients."
+  }
+]
