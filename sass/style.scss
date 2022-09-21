@@ -34,9 +34,9 @@
 
     }
     .left{
-        width: 12vw;
+        width: 10%;
         border-right: brown solid 0.5vw;
-        height: var(--cHeight);
+        min-height: 100vh;
     }
 
     .bubble1{
@@ -62,10 +62,10 @@
     #name{
         font-size:15px;
         color: blue;
-        text-align: right;
         margin-right: 5%;
         writing-mode: vertical-rl;
         text-orientation: upright;
+        padding-top : 20%;
     }
 
     .right{
@@ -78,7 +78,6 @@
         text-align: center;
         text-decoration: underline;
         margin:0;
-        
     }
 
     .flex{
@@ -198,6 +197,15 @@
     .title{
         font-size: 6em;
     }
+
+    .left{
+        width: 9%;
+    }
+
+    #name{
+        font-size:3em;
+        margin-right: 0;
+    }
         
     .word{
         font-size: 8em;
@@ -243,6 +251,11 @@
     .title{
         font-size: 7em;
     }
+
+    
+    .left{
+        width: 8%;
+    }
         
     .word{
         font-size: 8em;
@@ -283,16 +296,24 @@
     .image {
         width: 170px;
         height: 140px;
-        }
-           
+        }    
     }
 
 //BigDesktop
-@media screen and (min-width: 1650px) {
+@media screen and (min-width: 1600px) {
 
     body{
         padding-left:2.5%;
         padding-right:2.5%;
+    }
+
+    .left{
+        width: 7%;
+    }
+
+    #name{
+        font-size:4em;
+        margin-right: 0;
     }
 
     .container:before{
@@ -300,11 +321,11 @@
     }
 
     .title{
-        font-size: 10em;
+        font-size: 8em;
     }
         
     .word{
-        font-size: 9em;
+        font-size: 8em;
         letter-spacing: 25px;
     }
 
@@ -314,13 +335,13 @@
     }
 
     .state{
-        font-size: 4em;
+        font-size: 3em;
         margin-left: 35px;
     }
 
     .infoPkmn{
         height: 150px;
-        font-size: 5em;
+        font-size: 4em;
     }
     .infoPkmn img{
         height: 150px;
@@ -328,8 +349,8 @@
     }
         
     .btn{
-        height: 60px;
-        font-size: 3.5em;
+        height: 50px;
+        font-size: 3em;
         border: solid 3px rgba(27, 29, 177, 0.911);
     }
 
@@ -351,6 +372,11 @@
         //background-color: black;
         padding-left:5%;
         padding-right:5%;
+    }
+
+    
+    .left{
+        width: 5%;
     }
     .container:before{
         width: 90%;
@@ -412,6 +438,8 @@
     .container:before{
         width: 85%;
     }
+
+
            
 }
 

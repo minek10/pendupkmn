@@ -8,6 +8,9 @@ var wordHidden="";
 var rnd=0;
 var nbCoups = -1;
 var nom = prompt("Saisir votre nom : ");
+document.getElementById("name").innerText = nom.toUpperCase();
+
+
 
 //Listeneur lorsqu'on clique sur un btn qui renvoi vers la fonction lettersControl
 const button = document.querySelectorAll(".btn")
@@ -45,6 +48,7 @@ function init(){
     document.getElementById("image").style.display="none";
     document.getElementById("imgPendu").remove();
 
+
     //document.getElementById("")
 
 
@@ -80,8 +84,7 @@ function jsonAcces(){
                             //console.log(wordObj)
         .catch(document.querySelector('.state').innerText = "Connexion avec le dictionnaire Pokémon")
 
-        //Direction setTimeOut
-                   
+        //Direction setTimeOut          
  }
  
 //construction du mot
@@ -93,7 +96,7 @@ function jsonAcces(){
     //variable pour connaitre la largeur de l'écran
     var screenSize = screen.width;
     //console.log(screenSize)
-    screenSize <= 405 ? alert("Largueur < à 405 pixel,\nle contenu de la page peut\n être chamboulé") : null;
+    screenSize <= 400 ? alert("Largueur < à 400 pixel,\nle contenu de la page peut\n être chamboulé") : null;
 
     //Remplacement des lettres par des tirets
     for(var i=0; i<wordString.length;i++){
